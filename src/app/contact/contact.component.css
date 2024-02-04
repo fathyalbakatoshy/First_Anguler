@@ -1,0 +1,56 @@
+.contact {
+  min-height: calc(100vh - 106px);
+  margin-top: 106px;
+}
+
+
+.contact h2 {
+  color: #2C3E50;
+}
+
+
+.line .left-line, .right-line {
+  width: 80px;
+  height: 4px;
+  background-color: #2C3E50;
+}
+
+.line i {
+  color: #2C3E50 !important;
+}
+
+label {
+  margin-bottom: 7px;
+  transition: 0.7s;
+  position: relative;
+  top: 40px;
+  margin-top: 5px;
+  color: #1ABC9C;
+}
+
+.top_top {
+  top: 0;
+}
+
+input {
+  padding: 16px 12px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dee2e6;
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+}
+
+
+button {
+  margin-top: 24px;
+  padding: 6px 12px;
+  background-color: #1ABC9C;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  color: white;
+
+}

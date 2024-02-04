@@ -1,0 +1,7 @@
+.navbar {
+  background-color: #2C3E50 !important;
+}
+
+.nav-link.active, .nav-link.show {
+  background-color: #1ABC9C !important;
+}

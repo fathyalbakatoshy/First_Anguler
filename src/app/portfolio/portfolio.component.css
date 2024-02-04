@@ -1,0 +1,70 @@
+.portfolio {
+  min-height: calc(100vh - 106px);
+  margin-top: 106px;
+}
+
+.portfolio h2 {
+  color: #2C3E50;
+}
+
+
+.line .left-line, .right-line {
+  width: 80px;
+  height: 4px;
+  background-color: #2C3E50;
+}
+
+.line i {
+  color: #2C3E50 !important;
+}
+.col-lg-4, .col-md-6 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.box {
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.box::after {
+  content: "\2b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 100%;
+  width: 100%;
+  background-color: #1ABC9C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.box:hover::after {
+  opacity: 1;
+}
+
+
+.showImg {
+  position: fixed;
+  z-index: 99999;
+  inset: 0;
+  background-color: #1abc9c3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showImg .size {
+  width: 50%;
+  height: 50%;
+  background-color: #00000000;
+}

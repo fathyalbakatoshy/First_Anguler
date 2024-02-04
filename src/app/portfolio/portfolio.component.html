@@ -1,0 +1,51 @@
+<section class="portfolio position-relative">
+  <h2 class="text-center pt-4 text-uppercase mb-3 fs-1 fw-bolder">
+    CONATCT SECTION
+  </h2>
+  <div class="line d-flex justify-content-center align-items-center mb-3">
+    <span class="left-line me-3"></span>
+    <i class="fa-solid fa-star text-white"></i>
+    <span class="right-line ms-3"></span>
+  </div>
+
+  <div class="container">
+    <div class="row gy-5 pb-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="box" (click)="getSrc('assets/img/poert1.png')">
+          <img src="assets/img/poert1.png" class="w-100" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="box" (click)="getSrc('assets/img/poert2.png')">
+          <img src="assets/img/poert2.png" class="w-100" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="box" (click)="getSrc('assets/img/poert3.png')">
+          <img src="assets/img/poert3.png" class="w-100" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="box" (click)="getSrc('assets/img/poert1.png')">
+          <img src="assets/img/poert1.png" class="w-100" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="box" (click)="getSrc('assets/img/poert2.png')">
+          <img src="assets/img/poert2.png" class="w-100" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="box" (click)="getSrc('assets/img/poert3.png')">
+          <img src="assets/img/poert3.png" class="w-100" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<ng-template [ngIf]="imgSrc != ''">
+  <section class="showImg">
+    <img [src]="imgSrc" alt="" />
+  </section>
+</ng-template>

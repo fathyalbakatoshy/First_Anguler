@@ -1,0 +1,41 @@
+footer {
+  background-color: #2C3E50;
+  color: white;
+}
+.container {
+  padding: 40px;
+}
+
+footer .last {
+  padding: 10px;
+  background-color: #1A252F;
+  text-align: center;
+}
+footer .last p {
+  padding-top: 10px;
+}
+
+footer h3 {
+  padding-top: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  width: 37px;
+  height: 37px;
+  list-style: none;
+  border:  1px solid white;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -1,0 +1,22 @@
+<section class="contact">
+  <h2 class="text-center pt-4 text-uppercase mb-3 fs-1 fw-bolder">
+    CONATCT SECTION
+  </h2>
+  <div class="line d-flex justify-content-center align-items-center mb-3">
+    <span class="left-line me-3"></span>
+    <i class="fa-solid fa-star text-white"></i>
+    <span class="right-line ms-3"></span>
+  </div>
+
+  <div class=" w-50 mx-auto">
+    <label for="userName" [class.top_top]="userName !== ''" >userName :</label>
+    <input type="text" id="userName" placeholder="userName"  class="w-100" [(ngModel)]="userName">
+    <label for="userAge" [class.top_top]="userAge !== ''">userAge :</label>
+    <input type="text" id="userAge" placeholder="userAge" class="w-100" [(ngModel)]="userAge">
+    <label for="userMail" [class.top_top]="userMail !== ''">userMail :</label>
+    <input type="text" id="userMail" placeholder="userMail" class="w-100" [(ngModel)]="userMail">
+    <label for="userPass" [class.top_top]="userPass !== ''">userPass :</label>
+    <input type="text" id="userPass" placeholder="userPass" class="w-100"[(ngModel)]="userPass">
+    <button>Send Massage</button>
+  </div>
+</section>

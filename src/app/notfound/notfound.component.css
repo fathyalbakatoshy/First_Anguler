@@ -1,0 +1,4 @@
+.error {
+  height: calc(100vh - 106px);
+  margin-top: 106px;
+}
