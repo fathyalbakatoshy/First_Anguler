@@ -13,6 +13,7 @@ export class PortfolioComponent {
   getSrc(event: string) :void {
     this.imgSrc = event
   }
-
-
+  classImg() {
+    this.imgSrc = ""
+  }
 }

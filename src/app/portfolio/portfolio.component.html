@@ -45,7 +45,7 @@
 </section>
 
 <ng-template [ngIf]="imgSrc != ''">
-  <section class="showImg">
-    <img [src]="imgSrc" alt="" />
+  <section class="showImg" (click)="classImg()">
+    <img [src]="imgSrc" alt=""  />
   </section>
 </ng-template>
