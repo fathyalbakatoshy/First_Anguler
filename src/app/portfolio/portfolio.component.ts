@@ -10,10 +10,8 @@ export class PortfolioComponent {
 
   imgSrc: string = '';
 
-  getSrc(event: any) {
+  getSrc(event: string) :void {
     this.imgSrc = event
-    
-
   }
 
 
